@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ArtifactMMO GE Items price</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="header">ArtifactMMO GE Items price</h1>
+
+    <div class="form-container">
+      <input
+        type="text"
+        id="item-code"
+        placeholder="Enter item code"
+        required
+      />
+      <button onclick="addItem()">Add item</button>
+    </div>
+
+    <div id="item-list"></div>
+
+    <script src="script.js"></script>
+  </body>
+  <footer>
+    <div id="global-timestamp" style="text-align: center; margin-top: 20px">
+      Last Refresh: <span id="last-refresh-time">Never</span>
+    </div>
+  </footer>
+</html>
